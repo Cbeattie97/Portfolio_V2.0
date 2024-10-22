@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: var(--background);
+
+}
+
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--background);
+  
+  }
+
+  /* :root[data-theme="light"] {
+    --text: #0e1616;
+    --background: #f9fbfb;
+    --primary: #2d6b6c;
+    --secondary: #7dd2d4;
+    --accent: #37c6c8;
+  } */
+  :root
+  /* [data-theme="dark"]  */
+  {
+    --text: #e9f1f1;
+    --background: #040606;
+    --primary: #93d1d2;
+    --secondary: #2b8182;
+    --accent: #37c6c8;
+  }
+
+  h1{
+    justify-content: left;
+  }
+
+h2,h3,h4,h5,h6{
+  color: var(--text);
+  font-family: signpainter;
+  font-size: 2rem;
+}
+
+p{
+  color: var(--text);
+  font-family: Rajdhani;
+}
+

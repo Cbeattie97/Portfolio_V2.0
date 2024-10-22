@@ -1,0 +1,32 @@
+ /* :root[data-theme="light"] {
+    --text: #0e1616;
+    --background: #f9fbfb;
+    --primary: #2d6b6c;
+    --secondary: #7dd2d4;
+    --accent: #37c6c8;
+  } */
+  :root
+  /* [data-theme="dark"]  */
+  {
+    --text: #e9f1f1;
+    --background: #040606;
+    --primary: #93d1d2;
+    --secondary: #2b8182;
+    --accent: #37c6c8;
+  }
+
+
+header{
+    display: flex;
+    color: var(--accent); 
+    border-bottom: 1px solid var(--accent);
+    font-size: 2.5rem;
+    font-family: signpainter;
+}
+
+header h1:hover {
+    color: var(--secondary);
+    text-shadow: 1px 2px var(--primary) ;
+    transition: 300ms;
+}
+
