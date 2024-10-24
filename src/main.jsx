@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import App from './App.jsx';
+import App from './app';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import Contact from './pages/Contact';

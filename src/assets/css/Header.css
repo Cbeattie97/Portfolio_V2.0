@@ -17,11 +17,13 @@
 
 
 header{
-    display: flex;
     color: var(--accent); 
     border-bottom: 1px solid var(--accent);
     font-size: 2.5rem;
     font-family: signpainter;
+    justify-content: left;
+    display: flex;
+    
 }
 
 header h1:hover {
@@ -30,3 +32,23 @@ header h1:hover {
     transition: 300ms;
 }
 
+img{
+    width: 5rem;
+    height: 5rem;
+    margin: 0 1rem;
+    border-radius: 2.5rem;
+    border : 2px solid var(--accent);
+    display: flex;
+    margin-top: 2rem;
+}
+
+.title{
+  display: flex;
+
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+   display: none;
+  }
+}

@@ -1,4 +1,4 @@
-
+import './../assets/css/Projects.css';
 export default function Projects() {
   return (
     <div>
@@ -7,13 +7,13 @@ export default function Projects() {
         Here are some of the projects I've worked on. Click on a project to learn more.
       </p>
       <ul>
-        <li>
+        <li className='card'>
           <a href="/projects/1">Project 1</a>
         </li>
-        <li>
+        <li className='card'>
           <a href="/projects/2">Project 2</a>
         </li>
-        <li>
+        <li className='card'>
           <a href="/projects/3">Project 3</a>
         </li>
       </ul>

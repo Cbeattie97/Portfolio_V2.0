@@ -15,12 +15,12 @@
     --accent: #37c6c8;
   }
 
-ul {
+.navTabs{
     justify-content: right;
     list-style-type: none;
     display : flex;
 }
-li{
+.tabs{
     margin: 0 1rem;
     color: var(--text);}
 

@@ -14,9 +14,24 @@
     --secondary: #2b8182;
     --accent: #37c6c8;
   }
+ 
 
+   .card{
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.01);   
 
-ul {
-    justify-content: right;
     list-style-type: none;
-    display : flex;}
+    display : flex;
+    justify-content: left;
+
+    color: var(--background);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--accent); */
+    padding: 1rem;
+    margin: 1rem;
+    height: auto;
+   }
