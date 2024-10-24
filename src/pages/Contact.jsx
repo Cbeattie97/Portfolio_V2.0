@@ -26,7 +26,7 @@ export default function Contact() {
     };
   return (
     <div>
-      {/* <h2>Get In Touch !</h2>
+      <h2>Get In Touch !</h2>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
@@ -39,7 +39,7 @@ export default function Contact() {
         dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p> */}
+      </p>
 
       <form onSubmit={onSubmit}>
       

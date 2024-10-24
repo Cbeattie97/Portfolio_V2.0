@@ -25,7 +25,7 @@
     border: 1px solid rgba(255, 255, 255, 0.01);   
 
     list-style-type: none;
-    display : flex;
+    display : inline-block;
     justify-content: left;
 
     color: var(--background);
@@ -33,5 +33,14 @@
     -webkit-text-stroke-color: var(--accent); */
     padding: 1rem;
     margin: 1rem;
-    height: auto;
+    min-height: 120px;
+    width: 45%;
+    border: var(--accent) 2px solid;
    }
+
+   #BeatBrowser{
+    /* background-image: url(../../assets/images/BB.png); */
+    background-size: cover;
+  }
+
+  
